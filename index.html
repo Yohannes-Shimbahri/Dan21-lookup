@@ -226,8 +226,7 @@
 <!-- ── CONFIG: paste your Apps Script Web App URL here ── -->
 <script>
   const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxdAaCi62MR7pHH7GNdUgorC6nCyiJc12uoXTsWcabwzJV2M88sX3LblEiE3I5TwLB4/exec';
-  const DEMO_MODE = APPS_SCRIPT_URL === 'https://script.google.com/macros/s/AKfycbxdAaCi62MR7pHH7GNdUgorC6nCyiJc12uoXTsWcabwzJV2M88sX3LblEiE3I5TwLB4/exec';
-</script>
+  const DEMO_MODE = !APPS_SCRIPT_URL || APPS_SCRIPT_URL === 'PASTE_YOUR_URL_HERE';</script>
 
 <header>
   <div class="logo">Danforth Suits</div>
